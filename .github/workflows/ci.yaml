@@ -1,6 +1,10 @@
 name: CI
 
 on:  # yamllint disable-line rule:truthy
+# Uncomment code below in the app created from this template
+#  push:
+#    tags:
+#      - "v*.*.*"
   pull_request:
     branches:
       - master

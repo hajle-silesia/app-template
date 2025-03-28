@@ -34,8 +34,6 @@ repos:
         entry: python3 -m pytest
         language: system
         types: [python]
-        pass_filenames: false
-        always_run: true
         stages:
           - manual
           - pre-push
